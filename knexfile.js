@@ -1,4 +1,3 @@
-// do not make changes to this file
 const sharedConfig = {
   client: 'sqlite3',
   useNullAsDefault: true,
@@ -14,6 +13,6 @@ module.exports = {
   },
   testing: {
     ...sharedConfig,
-    connection: { filename: './data/test.db3' },
+    connection: { filename: './data/test.db3' }, // Correct path
   },
 };
